@@ -103,7 +103,7 @@ def process_user_query(question, vector_db, chat_history):
     # LLM
     llm = ChatGroq(
         temperature=0,
-        groq_api_key="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",
+        groq_api_key="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",
         model_name="llama-3.1-70b-versatile"
     )
     retriever = vector_db.as_retriever(search_kwargs={"k": 3})
